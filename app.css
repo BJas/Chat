@@ -1,0 +1,117 @@
+body {
+	width: 100%;
+}
+
+.user-name, .receiver-holder{
+  font-weight: bold;
+  color: 777888;
+  font-size: 16px;
+}
+
+.receiver-holder {
+	color: #09A08D;
+}
+
+.user-name img, .userlist img{
+	width: 22px;
+	height: 22px;
+	margin-bottom: 5px;
+	margin-right: 7px;
+}
+
+.totallist {
+	background-color: #EFF2F2;
+	height: 50px;
+}
+
+.totallist2 {
+	height: 733px;
+}
+
+.userlist, .userlist1 {
+	height: 50px;
+	width: 100%;
+	padding: 17px 20px;	
+}
+
+.userlist1 {
+	border-right: 1px solid #D4D2D1;
+}
+
+.userlist2 {
+	overflow-y: scroll;
+	height: 733px;
+	width: 100%;
+	background-color: #FCFFF3;
+	border-right: 1px solid #D4D2D1;
+}
+
+
+.userlist3 {
+	height: 733px;
+	width: 100%;
+	background-image: url(Images/back.jpg);
+}
+
+.user-lists {
+	font-weight: bold;
+	cursor: pointer;
+	padding: 12px 0px;
+	border-bottom: 1px solid #D4D2D1;
+	width:100%;
+}
+
+.user-lists:hover {
+	padding: 0px -15px; 
+	background-color: lightgrey;
+}
+
+.ml {
+	margin: 15px auto;
+	text-align: left;
+}
+
+.mr {
+	margin: 15px auto;
+	text-align: right;
+}
+
+.messages {
+	overflow-y: scroll;
+	height: 663px;
+}
+
+.mesview {
+	border-radius: 8px;
+	margin-top: 20px;
+	background-color: #CAF4BB;
+	padding: 7px;
+}
+
+.sender {
+	padding: 15px 20px;
+	margin: 0 -15px;
+	height: 70px;
+	background-color: #EEECEB;
+}
+
+.form-control {
+	height: 40px !important;
+	max-width: 950px !important;
+	float: left;
+}
+
+.time {
+	font-size: 5px;
+}
+
+input {
+	margin-left:10px; 
+	margin-bottom:10px
+}
+
+.sender img {
+	float: right;
+	height: 40px;
+	width: 40px;
+}
